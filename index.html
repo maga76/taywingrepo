@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-centr ">Hello World</h1>
+    <header class="p-[20px] flex items-center max-w-[1200px] m-auto justify-between">
+        <img src="./src/images/Logo.png" alt="">
+        <nav class=" gap-[32px] hidden lg:flex ">
+            <p class="text-[#69B99D]">Início</p>
+            <p>Sobre</p>
+            <p>Serviços</p>
+            <p>Depoimentos</p>
+        </nav>
+        <p class="lg:hidden text-[#69B99D]">☰</p>
+    </header>
+    <main>
+        <section>
+            <div class="flex max-w-[1200px] m-auto justify-between m-[200px]">
+                <aside class="m-[80px]">
+                    <p class="lg:w-[396px] lg:text-[36px] lg:text-start text-[30px] text-center w-[327px]">Saúde natural para os seus cabelos</p>
+                    <p class="text-[grey] lg:text-[18px] lg:w-[347px] lg:text-start text-[16px] w-[298px] text-center m-[12px]">Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
+                    <button class="bg-[#69B99D] p-7 text-[white] text-[16px] rounded-md text-center m-[24px]">Agendar um  horário</button>
+                </aside>
+                <img src="./src/images/Img-1.png" class="m-[70px]">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
